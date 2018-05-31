@@ -16,8 +16,8 @@ public class JavaMail_Sender {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("edupub123@gmail.com");
-            mailSender.setPassword("mapsedupub123");
+        mailSender.setUsername("From mail");
+            mailSender.setPassword("PAssword");
 
         Properties javaMailProperties = new Properties();
         javaMailProperties.put("mail.smtp.starttls.enable", "true");

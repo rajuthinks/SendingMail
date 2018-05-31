@@ -30,7 +30,7 @@ public class PDFMetadata {
 
     public static void main(String[] args) throws IOException, DocumentException, ParseException {
 
-        PDDocument dDocument = PDDocument.load(new File("C:\\Users\\kotaraja\\Desktop\\testPDF\\HelloWorldModifiedlates.pdf"));
+        PDDocument dDocument = PDDocument.load(new File("pdfFIle.pdf"));
         PDDocumentInformation dDocumentInformation = dDocument.getDocumentInformation();
 
         Calendar c = dDocumentInformation.getCreationDate();
